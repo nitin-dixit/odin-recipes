@@ -1,0 +1,31 @@
+*, ::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(253, 204, 211, 0.904);
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    img{
+        width: 250px;
+        height: auto;
+    }
+    h3{
+        font-size: medium;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
